@@ -1,0 +1,99 @@
+.card {
+  transition: 0.3s;
+  width: 250px;
+  height: 340px;
+  display: inline-block;
+  top: 230px;
+  margin: 0 10px; 
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  align-items: center;
+  padding: 5em;
+  position: relative;
+ 
+}
+
+.texto1 {
+    position: absolute;  
+    left: 50%; 
+    top: 50px;
+    transform: translate(-50%, -50%); 
+    font-weight: bold; 
+    font-size: 18px; 
+}
+
+img{
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.texto2 {
+  font-size: 16px; 
+  text-align: center; 
+  position: absolute; 
+  bottom: 70px; 
+  left: 20px;
+  right: 20px;
+
+}
+  
+.card:hover {
+    box-shadow: 0 8px 100px 0 rgb(0, 110, 184, 0.932);
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card a {
+  color:rgb(0, 43, 184);
+  text-decoration: none; 
+  display: inline-block;
+  margin-top: 60px; 
+  align-items: center;
+}
+
+.card a:hover {
+  text-decoration: underline; 
+}
+
+
+@media only screen and (max-width: 1023px) {
+  .card {
+    width: 200px;
+    height: 270px;
+  }
+
+  .texto1 {
+    font-size: 14px;
+  }
+
+  .texto2 {
+    font-size: 12px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .card {
+    width: 150px;
+    height: 200px;
+  }
+
+  .texto1 {
+    font-size: 12px;
+  }
+
+  .texto2 {
+    font-size: 10px;
+  }
+}
+
+
+
+  

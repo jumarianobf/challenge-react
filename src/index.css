@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
+
+#root {
+    text-align: center;
+    background-image: url(I:\FIAP\Front-end\challenge-react\vite-project\src\assets\Captura de tela 2024-03-18 212350.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
