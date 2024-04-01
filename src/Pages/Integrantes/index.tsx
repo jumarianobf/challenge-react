@@ -10,7 +10,9 @@ const Integrantes = () => {
         <>
         <Header/>
         <a className="link" href="/"> Volte para Home</a>
-        
+        <a className="link" href="https://github.com/jumarianobf/challenge-react" target="_blank">Link do Repositório</a>
+        <a className="link" href="https://www.youtube.com/watch?v=gTx1yT6RlMA" target="_blank">Link do video</a>
+
           <Card texto1="Julia Mariano Barsotti Ferreira" 
           texto2="RM552713 - 1TDSPA"
           img="src\assets\WhatsApp Image 2023-11-23 at 23.11 1.png"
