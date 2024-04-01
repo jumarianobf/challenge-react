@@ -9,7 +9,6 @@ import './style.css'
 
 const Home = () => {
 
-
     return(
 
         <>

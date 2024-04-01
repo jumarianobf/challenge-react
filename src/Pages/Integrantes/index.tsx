@@ -25,6 +25,8 @@ const Integrantes = () => {
           texto2="RM553643 - 1TDSPT"     
           img="src\assets\MicrosoftTeams-image 1.png" 
           linkedin="https://www.linkedin.com/in/enzo-rocha-90a859251/"/> 
+
+          <a href="https://github.com/jumarianobf/challenge-react">Link do Repositório</a>
           
         <Footer/>
         </>
