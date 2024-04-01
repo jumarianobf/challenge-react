@@ -9,31 +9,13 @@ import './style.css'
 
 const Home = () => {
 
-    const [clicks, setClicks] = useState<{ x: number, y: number }[]>([]);
-
-    const handleClick = (event: React.MouseEvent) => {
-        const { clientX, clientY } = event;
-        setClicks((prevClicks) => [...prevClicks, { x: clientX, y: clientY }]);
-    };
-
-    const saveClickData = () => {
-        const csvContent = "data:text/csv;charset=utf-8," +
-            clicks.map(({ x, y }) => `${x},${y}`).join("\n");
-
-        const encodedUri = encodeURI(csvContent);
-        const link = document.createElement("a");
-        link.setAttribute("href", encodedUri);
-        link.setAttribute("download", "click_data.csv");
-        document.body.appendChild(link);
-        link.click();
-    };
 
     return(
 
         <>
         <Header/>     
 
-        <a className="link" href="/integrantes" onClick={saveClickData}> Veja nossos integrantes</a>
+        <a className="link" href="/integrantes"> Veja nossos integrantes</a>
         <br />
         <Card texto1="Entregue sucesso agora com o Salesforce Customer 360" 
           texto2="O Customer 360 é a nossa suíte de produtos e serviços que ajuda 98% dos clientes a alcançar ou superar suas metas de ROI." 
