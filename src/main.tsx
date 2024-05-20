@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import Home from './Pages/Home/index.tsx'
 import Integrantes from './Pages/Integrantes/index.tsx'
+import FormularioCadastro from './Pages/FormularioUsuario/index.tsx'
 
 
 const router = createBrowserRouter ([
