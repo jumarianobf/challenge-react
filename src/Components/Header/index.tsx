@@ -18,7 +18,7 @@ function Header() {
     </a>
       <h1>Suporte</h1>
       <h1>Empresa</h1>
-      <h1>Login</h1>
+      <a href="/login">Login</a>
   </div>
     <div className="icones">
     <img className='icon' src="src\assets\Captura_de_tela_2024-03-18_204003-removebg-preview.png" alt="login" />
