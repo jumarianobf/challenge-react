@@ -14,6 +14,10 @@ const router = createBrowserRouter ([
   {
     path:"/integrantes",
     element: <Integrantes/>,
+  },
+  {
+    path:"/login",
+    element: <FormularioCadastro/>
   }
 ])
 

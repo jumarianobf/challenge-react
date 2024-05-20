@@ -13,7 +13,7 @@ function Header() {
     <h1>Produtos</h1>
     <h1>Industria</h1>
     <h1>Aprendizado</h1>
-    <a href="https://www.salesforce.com" target="_blank">
+    <a href="/" target="_blank">
       <img className='logo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1280px-Salesforce.com_logo.svg.png" alt="logo" />
     </a>
       <h1>Suporte</h1>
