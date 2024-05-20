@@ -55,6 +55,62 @@ function FormularioCadastro() {
                     <div className='title'>
                         <h1>Formulário de Cadastro de Usuário</h1>
                     </div>
+                
+                </div>
+                <form onSubmit={handleSubmit}>
+                    <div className='input-group'>
+                        <div className='input-box'>
+                            <label>
+                                <div className='texto'>
+                                    Nome
+                                    <br />
+                                </div>
+                                <input type="text" value={nomeUsuario} onChange={(e) => setNomeUsuario(e.target.value)} placeholder="Digite seu primeiro nome" required/>
+                            </label>
+                        </div>
+                        <div className='input-box'>
+                            <label>
+                            <div className='texto'>
+                                Telefone
+                                <br />
+                            </div>
+                                <input type="text" value={telefoneUsuario} onChange={(e) => setTelefoneUsuario(e.target.value)} placeholder="Digite seu telefone" required/>
+                            </label>
+                        </div>
+                        <div className='input-box'>
+                            <label>
+                            <div className='texto'>
+                                Email
+                                <br />
+                            </div>
+                                <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Digite seu e-mail" required/>
+                            </label>
+                        </div>
+                        <div className='input-box'>
+                            <label>
+                            <div className='texto'>
+                                Região
+                                <br />
+                            </div>
+                                <input type="text" value={regiao} onChange={(e) => setRegiao(e.target.value)} placeholder="Digite sua região" />
+                            </label>
+                        </div>
+                        <div className='input-box'> 
+                            <label>
+                            <div className='texto'>
+                                Empresa
+                                <br />
+                            </div>
+                                <input type="text" value={empresaUsuario} onChange={(e) => setEmpresaUsuario(e.target.value)} placeholder="Digite sua empresa" required/>
+                            </label>
+                        </div>
+                    </div>
+                    <div className='continue-button'>
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
         
         <Footer/>
