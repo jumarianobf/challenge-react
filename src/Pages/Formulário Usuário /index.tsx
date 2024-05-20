@@ -14,3 +14,4 @@ function FormularioCadastro() {
 
 }
 
+export default FormularioCadastro;
