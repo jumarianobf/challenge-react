@@ -38,3 +38,27 @@
     padding: 20px;
     margin-right: 40rem ;
 }
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%; /* Adicionado /
+}
+
+.form-header h1::after {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #92b5f7;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%; / Adicionado /
+}
