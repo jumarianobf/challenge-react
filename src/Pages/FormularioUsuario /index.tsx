@@ -22,6 +22,19 @@ function FormularioCadastro() {
             regiao: regiao,
             empresa_usuario: empresaUsuario
         };
+
+        try {
+            const response = await fetch('http://localhost:8080/projetoTeste/rest/usuario/cadastrar', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(usuario)
+            });
+        } catch (error) {
+            console.error('Erro ao cadastrar usuário:', error);
+            alert(error);
+        }
 }
 
 export default FormularioCadastro;
