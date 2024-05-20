@@ -31,7 +31,7 @@ function FormularioCadastro() {
                 },
                 body: JSON.stringify(usuario)
             });
-            
+
             if (!response.ok) {
                 console.log("Dados enviados com sucesso!");
                 alert("Feedback enviado com sucesso!");
@@ -43,6 +43,24 @@ function FormularioCadastro() {
             console.error('Erro ao cadastrar usuário:', error);
             alert(error);
         }
-}
+    };
+
+    return (
+        <>
+        <Header/> 
+        <div className='container2'>
+            <div className='form-image'><img src="" alt="" /></div>
+            <div className='form'>
+                <div className='form-header'>
+                    <div className='title'>
+                        <h1>Formulário de Cadastro de Usuário</h1>
+                    </div>
+
+        
+        <Footer/>
+        
+        </>
+    )   
+};
 
 export default FormularioCadastro;
