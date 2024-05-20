@@ -62,3 +62,29 @@
     padding: 1rem 0;
     width: 100%; / Adicionado /
 }
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    width: 100%; / Alterado para 100% */
+}
+
+.input-box input {
+    margin: 0.2rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(84, 46, 116, 0.1);
+
+}
+
+.input-box input::placeholder {
+    color: rgba(0, 0, 0, 0.5); 
+}
+
+
+
+.input-box input:hover {
+    background-color: #0c3e8075;
+}
