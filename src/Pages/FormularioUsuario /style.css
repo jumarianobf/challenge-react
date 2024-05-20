@@ -1,0 +1,14 @@
+.container2{
+    background-image: url('https://t4.ftcdn.net/jpg/05/05/87/81/360_F_505878106_cj7ql5Djcvukb3kmnmtOrvSo5hL1yoYa.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 220px;
+    align-items: center;
+    height: 63vh;
+    box-shadow: 60px 100px 100px rgba(0, 0, 0, 0.212);
+    display: flex;
+    border-radius: 20px;
+
+
+}
