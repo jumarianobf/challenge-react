@@ -31,6 +31,14 @@ function FormularioCadastro() {
                 },
                 body: JSON.stringify(usuario)
             });
+            
+            if (!response.ok) {
+                console.log("Dados enviados com sucesso!");
+                alert("Feedback enviado com sucesso!");
+            } else {
+                console.error("Falha ao enviar os dados.");
+                alert("Falha ao enviar os dados.");
+            }
         } catch (error) {
             console.error('Erro ao cadastrar usuário:', error);
             alert(error);
